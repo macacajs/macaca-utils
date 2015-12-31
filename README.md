@@ -17,11 +17,11 @@
 [download-image]: https://img.shields.io/npm/dm/macaca-utils.svg?style=flat-square
 [download-url]: https://npmjs.org/package/macaca-utils
 
-> macaca-utils
+> utils for macaca
 
 ## Installment
 
-```bash
+```shell
 $ npm i macaca-utils --save
 ```
 
