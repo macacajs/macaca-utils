@@ -13,8 +13,10 @@
 
 'use strict';
 
-var macaca-utils = require('..');
+var _ = require('..');
 
 describe('test', function() {
-
+  it('base', function() {
+    _.ipv4.should.be.ok;
+  });
 });

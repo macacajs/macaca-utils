@@ -3,15 +3,7 @@ npm_bin= $$(npm bin)
 REQUIRED = --require should
 TESTS = test
 
-BIN = iojs
-
-ifeq ($(findstring io.js, $(shell which node)),)
-	BIN = node
-endif
-
-ifeq (node, $(BIN))
-	FLAGS = --harmony-generators
-endif
+BIN = node
 
 all: test
 install:
