@@ -1,6 +1,6 @@
 {
   "name": "macaca-utils",
-  "version": "0.1.7",
+  "version": "0.1.8",
   "description": "utils for macaca",
   "keywords": [
     "util"
@@ -11,12 +11,7 @@
     "url": "git://github.com/macacajs/macaca-utils.git"
   },
   "dependencies": {
-    "ipv4": "0.0.4",
-    "lodash": "~3.10.1",
-    "mkdirp": "~0.5.1",
-    "moment": "~2.10.6",
-    "node-uuid": "~1.4.7",
-    "rimraf": "~2.5.0"
+    "xutil": "~1.0.0"
   },
   "devDependencies": {
     "co-mocha": "*",
