@@ -5,7 +5,7 @@
   "keywords": [
     "util"
   ],
-  "main": "index.js",
+  "main": "./lib/macaca-utils",
   "repository": {
     "type": "git",
     "url": "git://github.com/macacajs/macaca-utils.git"
