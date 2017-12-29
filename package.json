@@ -15,18 +15,19 @@
   },
   "devDependencies": {
     "co-mocha": "*",
+    "eslint": "^4.14.0",
+    "eslint-plugin-mocha": "^4.11.0",
     "istanbul": "^0.4.5",
-    "jshint": "*",
     "mocha": "*",
-    "pre-commit": "1.1.1",
-    "should": "*"
+    "pre-commit": "^1.2.2"
   },
   "scripts": {
-    "test": "make test",
-    "jshint": "make jshint"
+    "test": "istanbul cover `npm bin`/_mocha",
+    "lint": "eslint --fix .",
+    "ci": "npm run lint && npm run test"
   },
   "pre-commit": [
-    "jshint"
+    "lint"
   ],
   "homepage": "https://github.com/macacajs/macaca-utils",
   "license": "MIT"
